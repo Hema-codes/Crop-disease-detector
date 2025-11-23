@@ -1,0 +1,51 @@
+/* pages/assets/styles.css - modern SaaS theme */
+
+:root{
+  --accent: #2bb673;
+  --bg: #f6faf6;
+  --card: #ffffff;
+  --muted: #6b7280;
+}
+
+/* reset */
+body, section, nav { font-family: Inter, Roboto, "Segoe UI", Arial; }
+
+/* Top nav */
+.top-nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.top-nav .logo { font-weight:800; font-size:20px; color:var(--accent); }
+.top-nav .nav-right a { margin-left:14px; text-decoration:none; color:#111827; font-weight:600; }
+
+/* Hero */
+.hero { background: linear-gradient(180deg, rgba(11, 85, 37, 0.03), rgba(11,85,37,0.02)); padding:32px; border-radius:12px; margin-bottom:18px; }
+.hero-inner { display:flex; gap:24px; align-items:center; justify-content:space-between; }
+.hero-text h1 { font-size:44px; color:#0b2f3a; margin:0; }
+.hero-text .lead { color:#374151; font-size:18px; margin-top:8px; }
+.hero-media .hero-img { width:520px; max-width:48%; border-radius:12px; object-fit:cover; box-shadow:0 10px 30px rgba(16,24,40,0.08); }
+
+/* cards */
+.feature-cards { display:flex; gap:16px; margin-top:18px; }
+.card { background:var(--card); padding:18px; border-radius:12px; box-shadow: 0 8px 30px rgba(16,24,40,0.06); width:30%; }
+
+/* buttons */
+.btn { padding:10px 16px; border-radius:10px; text-decoration:none; font-weight:700; }
+.btn.primary { background:var(--accent); color:white; }
+.btn.outline { border:2px solid var(--accent); color:var(--accent); background:transparent; }
+
+/* streamlit tweaks */
+section.main .block-container { max-width:1200px; padding:24px 32px; }
+.stButton>button { border-radius:10px; padding:8px 12px; }
+
+/* small screens */
+@media (max-width:900px) {
+  .hero-inner { flex-direction:column-reverse; }
+  .hero-media .hero-img { width:100%; max-width:100%; }
+  .feature-cards { flex-direction:column; }
+}

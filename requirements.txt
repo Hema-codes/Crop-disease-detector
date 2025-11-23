@@ -1,0 +1,4 @@
+streamlit>=1.24
+requests
+Pillow
+openai  # optional, only if you want GPT fallback
