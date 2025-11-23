@@ -1,0 +1,8 @@
+AppleScab
+AppleCedarRust
+CornCommonRust
+PotatoEarlyBlight
+PotatoHealthy
+TomatoEarlyBlight
+TomatoHealthy
+TomatoYellowCurlVirus

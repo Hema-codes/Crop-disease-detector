@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+tensorflow==2.12.0
+pillow
+numpy
+python-multipart
+sqlalchemy
+pydantic
+reportlab
+requests
+python-dotenv
+geopy
+gTTS
+python-dateutil
+

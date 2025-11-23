@@ -1,0 +1,50 @@
+{
+  "AppleScab": {
+    "treatment": "Spray Captan or Mancozeb. Remove fallen leaves. Improve air circulation.",
+    "dosage": "Captan 1.5-2 g/L; Mancozeb 2.5 g/L",
+    "organic": "Bordeaux mixture or neem spray",
+    "cost_estimate": "5-10 USD/acre"
+  },
+  "AppleCedarRust": {
+    "treatment": "Use Myclobutanil or Mancozeb. Avoid planting near junipers.",
+    "dosage": "Follow label",
+    "organic": "Prune juniper hosts",
+    "cost_estimate": "8-12 USD/acre"
+  },
+  "CornCommonRust": {
+    "treatment": "Use Trifloxystrobin or Propiconazole. Use resistant hybrids.",
+    "dosage": "Follow label",
+    "organic": "Rotate crops, remove residue",
+    "cost_estimate": "10-20 USD/acre"
+  },
+  "PotatoEarlyBlight": {
+    "treatment": "Chlorothalonil or Mancozeb",
+    "dosage": "Follow label",
+    "organic": "Copper sprays",
+    "cost_estimate": "6-12 USD/acre"
+  },
+  "PotatoHealthy": {
+    "treatment": "Healthy - no treatment",
+    "dosage": "",
+    "organic": "",
+    "cost_estimate": ""
+  },
+  "TomatoEarlyBlight": {
+    "treatment": "Chlorothalonil or Copper fungicide. Remove infected leaves.",
+    "dosage": "Follow label",
+    "organic": "Neem oil",
+    "cost_estimate": "4-8 USD/acre"
+  },
+  "TomatoHealthy": {
+    "treatment": "Healthy - no treatment",
+    "dosage": "",
+    "organic": "",
+    "cost_estimate": ""
+  },
+  "TomatoYellowCurlVirus": {
+    "treatment": "No chemical cure. Remove infected plants. Control whiteflies.",
+    "dosage": "",
+    "organic": "Neem oil and sticky traps",
+    "cost_estimate": "2-6 USD/acre"
+  }
+}
